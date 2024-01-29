@@ -558,6 +558,132 @@ input[type="submit"] {
 }
 
 
+/*jd exp stuff*/
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-row {
+    display: flex;
+}
+
+.image-button {
+    width: 100px; /* Adjust based on your preference */
+    height: 100px; /* Adjust based on your preference */
+    margin: 5px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+/* Example of how to set individual button backgrounds */
+#button1 { background-image: url('assets/BFsword.png'); }
+#button2 { background-image: url('assets/Chain.png'); }
+#button3 { background-image: url('assets/giants.png'); }
+#button4 { background-image: url('assets/gloves.png'); }
+#button5 { background-image: url('assets/negatron.png'); }
+#button6 { background-image: url('assets/NLR.png'); }
+#button7 { background-image: url('assets/Recurve.png'); }
+#button8 { background-image: url('assets/spat.png'); }
+#button9 { background-image: url('assets/tear.png'); }
+/*more as needed */
+
+
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: flex-end; /* Align the grid to the bottom */
+    position: absolute; /* Positioning to the bottom-middle */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centering the grid */
+    width: 80%; /* Adjust based on your preference */
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /*center the row contents */
+    width: 100%; /*full width of the grid */
+}
+
+.image-spot {
+    width: 75px; /*half the size of your buttons, adjust as needed */
+    height: 75px; /*half the size of your buttons, adjust as needed */
+    margin: 2px; /*space between spots */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    border: 1px solid #ccc; /* Optional border */
+    filter: grayscale(100%);
+}
+
+.image-spot.active {
+    filter:grayscale(0);
+}
+#spot1 { background-image: url('assets/Deathblade.PNG'); }
+#spot2 { background-image: url('assets/Edge of Night.PNG'); }
+#spot3 { background-image: url('assets/steraksgage.PNG'); }
+#spot4 { background-image: url('assets/InfinityEdge.PNG'); }
+#spot5 { background-image: url('assets/bloodthirster.PNG'); }
+#spot6 { background-image: url('assets/gunblade.PNG'); }
+#spot7 { background-image: url('assets/giantslayer.PNG'); }
+#spot8 { background-image: url('assets/truedamage.PNG'); }
+#spot9 { background-image: url('assets/spear.PNG'); }
+#spot10 { background-image: url('assets/bramble.PNG'); }
+#spot11 { background-image: url('assets/sunfire.PNG'); }
+#spot12 { background-image: url('assets/steadfast.PNG'); }
+#spot13 { background-image: url('assets/gargoyle.PNG'); }
+#spot14 { background-image: url('assets/crownguard.PNG'); }
+#spot15 { background-image: url('assets/titans.PNG'); }
+#spot16 { background-image: url('assets/pentakill.PNG'); }
+#spot17 { background-image: url('assets/protect.PNG'); }
+#spot18 { background-image: url('assets/warmogs.PNG'); }
+#spot19 { background-image: url('assets/guardbreaker.PNG'); }
+#spot20 { background-image: url('assets/evenshroud.PNG'); }
+#spot21 { background-image: url('assets/morello.PNG'); }
+#spot22 { background-image: url('assets/nashors.PNG'); }
+#spot23 { background-image: url('assets/heartsteel.PNG'); }
+#spot24 { background-image: url('assets/redemption.PNG'); }
+#spot25 { background-image: url('assets/thiefs.PNG'); }
+#spot26 { background-image: url('assets/quicksilver.PNG'); }
+#spot27 { background-image: url('assets/jeweled.PNG'); }
+#spot28 { background-image: url('assets/lastwhisper.PNG'); }
+#spot29 { background-image: url('assets/punk.PNG'); }
+#spot30 { background-image: url('assets/hoj.PNG'); }
+#spot31 { background-image: url('assets/dragon.PNG'); }
+#spot32 { background-image: url('assets/ionic.PNG'); }
+#spot33 { background-image: url('assets/runaan.PNG'); }
+#spot34 { background-image: url('assets/country.PNG'); }
+#spot35 { background-image: url('assets/adaptive.PNG'); }
+#spot36 { background-image: url('assets/rabadon.PNG'); }
+#spot37 { background-image: url('assets/guinsoo.PNG'); }
+#spot38 { background-image: url('assets/kda.PNG'); }
+#spot39 { background-image: url('assets/archangel.PNG'); }
+#spot40 { background-image: url('assets/redbuff.PNG'); }
+#spot41 { background-image: url('assets/8bit.PNG'); }
+#spot42 { background-image: url('assets/statik.PNG'); }
+#spot43 { background-image: url('assets/tactician.PNG'); }
+#spot44 { background-image: url('assets/emo.PNG'); }
+#spot45 { background-image: url('assets/blue.PNG'); }
+
+
+
+.green-border {
+    border: 4px solid green; /*adjust the border size and color as needed */
+}
+
+.gold-border {
+    border: 4px solid gold; /*adjust the border size and color as needed */
+}
 
 
 /*form*/
