@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teamfight Tactics Item Builder</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Teamfight Tactics Item Builder</h1>
+    </header>
+
+    <nav>
+        <!-- Navigation bar items like Home, About, Contact, etc. -->
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>About Teamfight Tactics</h2>
+            <p>Teamfight Tactics is a strategy game where combining items effectively is key to success. This tool helps you master item combinations to excel in your games!</p>
+        </section>
+
+        <section id="itemBuilder">
+            <h2>Item Combination Tool</h2>
+            <p>Enter an item component below to see all the powerful items you can build:</p>
+            <input type="text" id="itemComponent" placeholder="Enter Item Component">
+            <button onclick="fetchItemCombinations()">Get Combinations</button>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
