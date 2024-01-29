@@ -683,6 +683,11 @@ input[type="submit"] {
     border: 4px solid gold; /*adjust the border size and color as needed */
 }
 
+.image-button {
+    /* Existing styles */
+    background-color: red; /* Temporarily set a background color */
+}
+
 /*form*/
 
 /* For Firefox */
