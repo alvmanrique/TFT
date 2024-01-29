@@ -558,7 +558,7 @@ input[type="submit"] {
 }
 
 
-/*jd exp stuff*/
+/*jdexpstuff*/
 .body {
     margin: 0;
     padding: 0;
@@ -600,13 +600,11 @@ input[type="submit"] {
 .image-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the grid horizontally */
-    align-items: flex-end; /* Align the grid to the bottom */
-    position: absolute; /* Positioning to the bottom-middle */
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); /* Centering the grid */
-    width: 80%; /* Adjust based on your preference */
+    justify-content: center;
+    align-items: flex-end;
+    position: relative; 
+    margin: auto; 
+    width: 80%; 
 }
 
 .image-row {
@@ -684,7 +682,6 @@ input[type="submit"] {
 .gold-border {
     border: 4px solid gold; /*adjust the border size and color as needed */
 }
-
 
 /*form*/
 
