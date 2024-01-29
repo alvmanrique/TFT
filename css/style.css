@@ -627,7 +627,7 @@ input[type="submit"] {
 .image-spot.active {
     filter:grayscale(0);
 }
-#spot1 { background-image: url('assets/Deathblade.PNG'); }
+#spot1 { background-image: url('images/Deathblade.PNG'); }
 #spot2 { background-image: url('assets/Edge of Night.PNG'); }
 #spot3 { background-image: url('assets/steraksgage.PNG'); }
 #spot4 { background-image: url('assets/InfinityEdge.PNG'); }
@@ -683,10 +683,7 @@ input[type="submit"] {
     border: 4px solid gold; /*adjust the border size and color as needed */
 }
 
-.image-button {
-    /* Existing styles */
-    background-color: red; /* Temporarily set a background color */
-}
+
 
 /*form*/
 
