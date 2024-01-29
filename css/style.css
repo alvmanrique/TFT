@@ -584,15 +584,15 @@ input[type="submit"] {
 }
 
 /* Example of how to set individual button backgrounds */
-#button1 { background-image: url('assets/BFsword.png'); }
-#button2 { background-image: url('assets/Chain.png'); }
-#button3 { background-image: url('assets/giants.png'); }
-#button4 { background-image: url('assets/gloves.png'); }
-#button5 { background-image: url('assets/negatron.png'); }
-#button6 { background-image: url('assets/NLR.png'); }
-#button7 { background-image: url('assets/Recurve.png'); }
-#button8 { background-image: url('assets/spat.png'); }
-#button9 { background-image: url('assets/tear.png'); }
+#button1 { background-image: url('images/BFsword.png'); }
+#button2 { background-image: url('images/Chain.png'); }
+#button3 { background-image: url('images/giants.png'); }
+#button4 { background-image: url('images/gloves.png'); }
+#button5 { background-image: url('images/negatron.png'); }
+#button6 { background-image: url('images/NLR.png'); }
+#button7 { background-image: url('images/Recurve.png'); }
+#button8 { background-image: url('images/spat.png'); }
+#button9 { background-image: url('images/tear.png'); }
 /*more as needed */
 
 
