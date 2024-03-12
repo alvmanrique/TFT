@@ -558,7 +558,8 @@ input[type="submit"] {
 }
 
 
-/*jdexpstuff*/
+/*JDWork VVVVV*/
+
 .body {
     margin: 0;
     padding: 0;
@@ -677,6 +678,15 @@ input[type="submit"] {
 
 
 
+/* JD Stuff for later */
+
+
+
+
+/* End of JD Stuff for later */
+
+
+
 .green-border {
     border: 4px solid green; /*adjust the border size and color as needed */
 }
@@ -685,6 +695,9 @@ input[type="submit"] {
     border: 4px solid gold; /*adjust the border size and color as needed */
 }
 
+
+
+/*End JD Stuff */
 
 
 /*form*/
