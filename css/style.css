@@ -726,3 +726,63 @@ html {
   scrollbar-width: thick; /* makes the scrollbar thicker */
 }
 
+/* For MG Stuff */
+/* Container for the tier list */
+#tier-list {
+    width: 80%; /* Take up 80% of the container width */
+    max-width: 960px; /* Maximum width for the list */
+    margin: 20px auto; /* Center horizontally and add vertical space */
+    background-color: white; /* White background for the tier list */
+    padding: 20px; /* Padding inside the tier list */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow around the tier list */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Styling for the tier letter */
+.item > div.tier {
+    width: 50px; /* Set a fixed width for the tier container */
+    text-align: center; /* Center-align the tier letter */
+    font-weight: bold; /* Make the tier letter bold */
+    font-size: 1.2em; /* Slightly larger font size for emphasis */
+    margin-right: 100px; /* Increase right margin to move the tier slightly to the left */
+}
+
+
+.item img {
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.name {
+    flex-grow: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.tier {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.squares {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.squares img {
+    width: 48px;
+    height: 48px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+/* End of MG Stuff */
