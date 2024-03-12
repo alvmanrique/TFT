@@ -678,30 +678,12 @@ input[type="submit"] {
 
 
 
-/* New pop-up stuff */
-.image-spot {
-    position: relative;
-    /* Other styling as needed */
-}
-
-
-.popup-image {
-    position: absolute;
-    top: -230px; /*adjust this value as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 480px; /*adjust as needed */
-    height: 380px; /*adjust as needed */
-    object-fit: scale-down;
-    background-size: cover;
-    background: no-repeat;
-    z-index: 1000; /*use a high value to ensure it's on top */
-    display: none; /*initially hidden, shown by JavaScript */
-}
+/* JD Stuff for later */
 
 
 
 
+/* End of JD Stuff for later */
 
 
 
