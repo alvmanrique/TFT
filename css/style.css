@@ -8,10 +8,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #303633; 
+  background-color: #1d0038; 
   padding: 15px;
-  /*Color to use Black = #303633, Yellow= FBC91B*/
+  /*Color to use Purple = #1d0038, Yellow= FBC91B*/
   border: 5px solid #fbc91B;
+  border-radius: 20px;
 }
 
 
@@ -48,21 +49,17 @@ background-color: #fbc91B; /* Change background color to yellow */
 .banner {
   position: relative;
   height: 45vh;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  border: 5px solid #fbc91B;
+  border-radius: 25px;
   
 }
 
 .banner img {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
-border: 0.0.10px solid #d9aa17; 
+  border-radius: 20px;
 }
-
-
-/* .banner {
-  padding-bottom: 50px;
-} */
 
 
 
@@ -95,28 +92,15 @@ a {
 h1 {
   font-size: 36px;
   text-align: center;
-  margin-top: 50px;
+  color: #fff;
+  padding: 20px;
 }
 
 p {
   font-size: 18px;
   text-align: center;
   margin-top: 20px;
-}
-
- /*Last Updates Title*/
-
- h1 {
-  margin-bottom: 100px;
-}
-
-
-h1 {
-  font-size: 36px;
-  text-align: center;
-  margin-top: 50px;
-  -webkit-text-stroke: 0.25px #fbc91B;
-  text-stroke: 1px #fbc91B;
+  color: #fff;
 }
 
 /*Scrollbar*/
@@ -136,44 +120,32 @@ h1 {
   border: 5px solid #f1f1f1;
 }
 
-/* For Firefox */
-scrollbar-color: #fbc91B #f1f1f1;
-
+/* For Firefox
+scrollbar-color: #fbc91B #f1f1f1; */
 
 /*Containers on the Index page*/
 .container-row {
-display: flex;
 justify-content: space-between;
 align-items: flex-start;
-margin: 0;
-max-width: 960px;
-padding: 0 50px;
+background-color: #fbc91b;
+border-radius: 20px;
 }
 
 .container {
+display: inline-flex;
 width: calc(33.33% - 3px);
-/*
-background-color: #fbc91B;
-*/
 padding: 10px;
 box-sizing: border-box;
-display: inline-block;
-height: 400px;
-margin-bottom: 100px;
 position: relative;
+border-radius: 30px;
 }
 
 .container img {
-position: absolute;
-top: 0;
-left: 0;
 width: 100%;
-height: 100%;
 object-fit: cover;
-border-radius: 15px;
+border-radius: 20px;
+border: 5px #fbc91b;
 }
-
-
 
 
 body {
@@ -193,14 +165,18 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
 footer {
   text-align: center;
 }
 
-
-
-
+.footerWords{
+  color: #1d0038;
+}
+.differentNumbers {
+  font-family: Arial Black;
+}
 
 
 /*Text*/
@@ -242,14 +218,16 @@ p {
 
 .banner2 {
 text-align: center; 
-height: auto; 
-margin-bottom: 50px;
+height: auto;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 .banner2 img {
 width: 50%; 
 height: auto;
 max-width: 100%; 
+margin-bottom: 20px;
 }
 
 
@@ -260,7 +238,7 @@ width: 50%;
 height: auto;
 max-width: 100%; 
 border-radius: 10px; 
-border: 2px solid #fbc91B; 
+border: 5px solid #fbc91B; 
 }
 
 
@@ -394,28 +372,14 @@ margin-top: 10px;
 
 
 
-.roraima-img {
-width: 700px; 
-height: 400px; 
-object-fit: cover; 
-border-radius: 5px;
-border: 0.5px solid #fbc91B; 
-}
-
-
-
-
-
-
-
-/*Story tales Puerto Rico*/
-
 body {
 font-family: Arial, sans-serif;
 line-height: 1.6;
 margin: 0;
 padding: 20px;
-background-color: #f4f4f4;
+
+/*Background color in general*/
+background-color: #0c0017;
 }
 
 .article-container {
@@ -424,6 +388,7 @@ padding: 20px;
 margin: 20px auto;
 max-width: 1200px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
 }
 
 .article-title {
@@ -437,7 +402,7 @@ height: auto;
 display: block;
 margin: 0 auto 20px;
 border-radius: 5px;
-border: 2px solid #fbc91B; 
+border: 5px solid #fbc91B; 
 }
 
 .article-content {
@@ -456,6 +421,7 @@ margin: 20px auto;
 max-width: 800px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 text-align: center;
+border-radius: 20px;
 }
 
 .contact {
@@ -487,11 +453,12 @@ color: #fbc91B;
 
 .center-title {
 text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 
-/*Under $50*/
-/* Article Container 2 and Article Content */
+
 .article-container2 {
   display: flex;
   justify-content: center;
@@ -505,11 +472,27 @@ text-align: center;
 .article-content {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0 15px;
   box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
   margin-bottom: 40px;
+  color: #1d0038;
+  color: #1d0038;
+  padding: 40px 80px 40px  80px;
+
 }
 
+.firstArticle {
+  background-color: #fff;
+  margin: 40px 80px 40px  80px;
+  border-radius: 20px;
+}
+.secondArticle {
+  background-color: #fff;
+  margin: 40px 80px 40px  80px;
+  border-radius: 20px;
+}
 
 
 /*List Containr*/
@@ -558,7 +541,7 @@ input[type="submit"] {
 }
 
 
-/*jdexpstuff*/
+/*JD estuff*/
 .body {
     margin: 0;
     padding: 0;
@@ -695,3 +678,140 @@ html {
   scrollbar-width: thick; /* makes the scrollbar thicker */
 }
 
+
+
+/* LAST UPDATE ------------------------------------------------------------ */
+
+
+
+/* ... Other CSS styles ... */
+
+.image-container-center {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.asu-image-center {
+  max-width: 55%; /* we may adjust this as necessary */
+  height: auto;
+  display: inline-block; /* This will center the image in the text-align center container */
+  border: 5px solid #fbc91B;
+  border-radius: 20px;
+}
+
+.content-container {
+  border: 5px solid #fbc91B;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* New pop-up stuff */
+.image-spot {
+  position: relative;
+  /* Other styling as needed */
+}
+
+
+.popup-image {
+  position: absolute;
+  top: -230px; /*we can adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 480px; /*adjust as needed */
+  height: 380px; /*adjust as needed */
+  object-fit: scale-down;
+  background-size: cover;
+  background: no-repeat;
+  z-index: 1000; /*we  can use a high value to ensure it's on top */
+  display: none; /*initially hidden, shown by JavaScript */
+}
+
+
+
+
+
+
+
+.green-border {
+  border: 4px solid green; /*adjust the border size and color as needed */
+}
+
+.gold-border {
+  border: 4px solid gold; /*adjust the border size and color as needed */
+}
+
+
+
+/*End JD Stuff */
+
+
+/*form*/
+
+/* For Firefox */
+html {
+scrollbar-color: #fbc91b #f1f1f1; /* thumb color and track color */
+scrollbar-width: thick; /* makes the scrollbar thicker */
+}
+
+/* For MG Stuff */
+/* Container for the tier list */
+#tier-list {
+  width: 80%; /* Take up 80% of the container width */
+  max-width: 960px; /* Maximum width for the list */
+  margin: 20px auto; /* Center horizontally and add vertical space */
+  background-color: #1d0038;; /* White background for the tier list */
+  padding: 20px; /* Padding inside the tier list */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow around the tier list */
+  border-radius: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Styling for the tier letter */
+.item > div.tier {
+  width: 50px; /* Set a fixed width for the tier container */
+  text-align: center; /* Center-align the tier letter */
+  font-weight: bold; /* Make the tier letter bold */
+  font-size: 1.2em; /* Slightly larger font size for emphasis */
+  margin-right: 100px; /* Increase right margin to move the tier slightly to the left */
+}
+
+
+.item img {
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.name {
+  flex-grow: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.tier {
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.squares {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.squares img {
+  width: 48px;
+  height: 48px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+/* End of MG Stuff */

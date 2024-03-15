@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'spot44': ['button8', 'button9'], //buttons 8 and 9 activate Spot 44
         //tear
         'spot45': ['button9'], //buttons 9 activates Spot 45 (needs double press)
+        
     };
 
     //function to check and update the state of image spots
@@ -109,4 +110,25 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.image-button').forEach(button => {
         button.addEventListener('click', toggleBorderAndCheckSpots);
     });
+
+   
+
+
+    document.querySelectorAll('.image-spot').forEach(function(spot) {
+        //find the nested .popup-image div within the current .image-spot
+        const popupImageElement = spot.querySelector('.popup-image');
+
+        //show the popup image on mouse enter
+        spot.addEventListener('mouseenter', function() {
+            popupImageElement.style.display = 'block';
+        });
+
+        //hide the popup image on mouse leave
+        spot.addEventListener('mouseleave', function() {
+            popupImageElement.style.display = 'none';
+        });
+    });
+
+
+
 });
